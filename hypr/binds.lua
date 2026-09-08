@@ -9,7 +9,6 @@ local mainMod = "SUPER"
 -- TEMEL UYGULAMA VE SİSTEM KISAYOLLARI
 -- -----------------------------------------------------------------------------
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(_G.terminal))      -- Terminali Aç (Kitty)
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(_G.fileManager))   -- Dosya Yöneticisini Aç (Dolphin)
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("quickshell ipc call launcher toggle"))-- Uygulama Menüsünü Aç
 
 hl.bind(mainMod .. " + C", hl.dsp.window.close())           -- Aktif Pencereyi Kapat

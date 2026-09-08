@@ -4,7 +4,6 @@
 
 -- Küresel Değişkenler
 _G.terminal    = "kitty"
-_G.fileManager = "thunar"
 
 -- -----------------------------------------------------------------------------
 -- SİSTEM VE BAŞLANGIÇ AYARLARI
